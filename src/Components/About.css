@@ -1,0 +1,29 @@
+.aboutContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  padding: 4rem;
+}
+.aboutContainer img {
+  width: 35%;
+  height: auto;
+}
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+.aboutContent hr {
+  width: 10rem;
+}
+.aboutContent p {
+  width: 33rem;
+  line-height: 1.8rem;
+  color: rgb(131, 131, 131);
+}
